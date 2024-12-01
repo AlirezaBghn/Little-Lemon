@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alireza Baghban" />
+    <meta name="description"
+        content="Welcome to Little Lemon, a cozy Mediterranean restaurant offering fresh, seasonal dishes. Explore our menu, book a table, and enjoy our rustic ambiance. We look forward to serving you!" />
+    <title>Little Lemmon</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+
+        <!-- Logo -->
+        <header class="header">
+            <div class="header-logo mt-[50px] mr-0 mb-[10px] ml-0 flex justify-center">
+                <a href="index.html">
+                    <img class="block w-[500px] mx-auto transform -translate-y-5 hover:translate-y-0 transition duration-500"
+                        src="images/img/Asset 14@4x.png" alt="">
+                </a>
+            </div>
+            <!--End of logo  -->
+
+            <!-- Main Nav -->
+            <nav class="main-nav">
+                <ul class="flex justify-center mt-0 mr-0 mb-[70px] ml-[30px]">
+                    <li
+                        class="list-none mt-[5px] mr-[20px] mb-[5px] ml-[20px] text-[18px] transform translate-y-[-6px] hover:translate-y-0 transition duration-300 ]">
+                        <a href="index.html" class="text-[rgb(116,108,108)] font-[bold] hover:text-lime-800">Home</a>
+                    </li>
+                    <li
+                        class="list-none mt-[5px] mr-[20px] mb-[5px] ml-[20px] text-[18px] transform translate-y-[-6px] hover:translate-y-0 transition duration-300 ]">
+                        <a href="menuPage.html" class="text-[rgb(116,108,108)] font-[bold] hover:text-lime-800">Menu</a>
+                    </li>
+                    <li
+                        class="list-none mt-[5px] mr-[20px] mb-[5px] ml-[20px] text-[18px] transform translate-y-[-6px] hover:translate-y-0 transition duration-300 ]">
+                        <a href="contact.html"
+                            class="text-[rgb(116,108,108)] font-[bold] hover:text-lime-800">Contact</a>
+                    </li>
+                    <li
+                        class="list-none mt-[5px] mr-[20px] mb-[5px] ml-[20px] text-[18px] transform translate-y-[-6px] hover:translate-y-0 transition duration-300 ]">
+                        <a href="About.html" class="text-[rgb(116,108,108)] font-[bold] hover:text-lime-800">About</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+        <!--End of header -->
+
+        <!-- Main -->
+        <main>
+            <!-- Slider -->
+            <div class="max-w-[800px] h-auto>
+                >
+                mx-auto">
+
+                <div id="default-carousel" class="relative" data-carousel="static">
+                    <!-- Carousel wrapper -->
+                    <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <span
+                                class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
+                                Slide</span>
+                            <img src="images/menu-pic/2.jpg"
+                                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="...">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/menu-pic/3.webp"
+                                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="...">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="images/menu-pic/4.jpg"
+                                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
+                                alt="...">
+                        </div>
+                    </div>
+                    <!-- Slider indicators -->
+                    <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1"
+                            data-carousel-slide-to="0"></button>
+                        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                            data-carousel-slide-to="1"></button>
+                        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                            data-carousel-slide-to="2"></button>
+                    </div>
+                    <!-- Slider controls -->
+                    <button type="button"
+                        class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-prev>
+                        <span
+                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-white-800" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 19l-7-7 7-7">
+                                </path>
+                            </svg>
+                            <span class="hidden">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button"
+                        class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span
+                            class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                            <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-white-800" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                                </path>
+                            </svg>
+                            <span class="hidden">Next</span>
+                        </span>
+                    </button>
+                </div>
+                <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+            </div>
+            <!-- End of slider -->
+            <!-- logo main-->
+            <div class="header-logo mt-[80px] mr-0 mb-[10px] ml-0 flex justify-center">
+                <a href="index.html">
+                    <img class="block w-[40px] mx-auto transform -translate-y-5 " src="img/Asset 7@4x.png" alt="">
+                </a>
+            </div>
+            <!--End of logo main -->
+
+            <!-- Menu content -->
+            <div class="flex flex-col justify-center items-center ">
+                <h3 class="mb-[5px] text-[35px] font-semibold">Our menu</h3>
+                <h4 class="mb-[5px] text-[14px] font-thin">With & without meat | Always fresh</h4>
+                <!-- line -->
+                <div class="flex justify-center my-4">
+                    <div class="w-16 h-[2px] bg-gray-500"></div>
+                </div>
+                <!-- end of line -->
+                <p class="mb-[5px] text-[14px] font-thin">We are known for our large schnitzels, but we can do much
+                    more.
+                </p>
+                <p class="mb-[5px] text-[14px] font-thin">You can look forward to fresh salads as well as dishes with
+                    and
+                    without meat.</p>
+                <h4 class="mb-[10px] text-[16px] font-medium">DAILY MENU WITH CHANGING DISHES CAN BE FOUND IN THE
+                    RESTAURANT
+                </h4>
+                <h5 class="mb-[5px] text-[11px] font-medium">Our menu</h5>
+                <!-- Download button -->
+                <a href="Menu-pdf/menu.pdf" download="Speisekarte"
+                    class="bg-[#4a5e57] text-white font-bold py-2 px-6 rounded hover:bg-[#0b5345] mb-[10px] text-[15px]">
+                    Download PDF
+                </a>
+                <!-- End of download button -->
+
+                <h4 class="mb-[5px] text-[12px] font-medium">Pick up and enjoy:</h4>
+                <p class=" mb-[5px] font-light">With our new "To Go" option, you can now easily
+                    order your favorite
+                    dishes online
+                    and
+                    pick them
+                    up
+                    directly
+                    at Steinheil 16. It's that simple:</p>
+                <button
+                    class="mt-[10px] bg-[#4a5e57] text-white font-bold py-2 px-4 rounded hover:bg-[#0b5345] mb-[50px] text-[12px]">ORDER
+                    NOW</button>
+            </div>
+        </main>
+    </div>
+    <!--footer-->
+    <footer class="relative bg-[#d1d1d1] clip-slant py-12 text-gray-800 mt-[20px]">
+        <div class="flex justify-center gap-4 px-8 py-12">
+
+            <!-- Logo Section -->
+            <div class="mr-5 transform translate-y-[-6px] hover:translate-y-0 transition duration-300"> <a
+                    href="index.html"><img src="images/img/Asset 16@4x.png" alt="LittleLemonLogo"
+                        class="Footerlogo w-[200px] "></a>
+            </div>
+
+            <!-- First Column -->
+            <ul class="footer-flex-container mx-auto">
+                <li>
+                    <h2 class="font-bold"> Imprint </h2>
+                </li>
+                <li>Little Lemon GmbH</li>
+                <li>Commercial register: HRB 987654</li>
+                <li>District court: Köln</li>
+                <li>Tax no.: DE123456789</li>
+                <p><a href="#">Data protection declaration</a></p>
+            </ul>
+
+            <!-- Second Column -->
+            <ul class="footer-flex-container mx-auto">
+                <li>
+                    <h2 class="font-bold"> Contact </h2>
+                </li>
+                <li>Address: Zitronenhain 7</li>
+                <li>Cologne, 50667</li>
+                <li>Germany</li>
+                <li>Phone: +49 123 456 789</li>
+                <li>Email: info@littlelemon.de</li>
+            </ul>
+
+            <!-- Third Column -->
+            <ul class="footer-flex-container self-end mx-auto">
+                <li>
+                    <h3>&copy; 2024 Little Lemon. All rights reserved.</h3>
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
